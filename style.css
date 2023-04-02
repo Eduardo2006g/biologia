@@ -1,23 +1,37 @@
-.semente {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: brown;
-  position: relative;
-  animation-name: crescer;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes crescer {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-    background-color: green;
-  }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
+
+header {
+  background-color: #4d4d4d;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #bfbfbf;
+}
+
+.banner {
+  background-image: url('https://images.unsplash.com/photo-1528374106514-ba0a427e680f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BlY3RpYW5zaXN0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format
