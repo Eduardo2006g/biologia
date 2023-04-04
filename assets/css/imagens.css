@@ -1,9 +1,18 @@
 /*aaaa*/
 
 @media (max-width:1100px) {
-    .mapas{
-        width: 100%;
-        height: 100%;
+
+    .body{
+      min-height: 70%;
+      display: block;
+      margin: auto;
+      max-height: 100%;
+    }
+
+    .mapap img{
+      width: auto;
+      height: auto;
+      display: flex;
     }
 
     .row{
@@ -65,12 +74,26 @@
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
   }
   
-.mapap{
+  .mapap{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+  }
+  
+  .mapap .grid{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-}
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .mapap img {
+    width: 100%;
+    height: 100%;
+  }
 
 
 .rizopodes{
