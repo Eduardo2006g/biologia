@@ -1,3 +1,7 @@
+body {
+    min-height: 100vh;
+}
+
 .top3-content {
     max-width: 64rem;
     display: flex;
