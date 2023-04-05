@@ -1,8 +1,13 @@
+html, body{
+    height: 100%;
+}
+
 .main-bg{
     background-image: url('../img/mainbg.svg');
     background-size: cover;
     background-position: center center;
     color: var(--white-color);
+    overflow-x: hidden;
 }
 
 .white-bg {
