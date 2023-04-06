@@ -10,6 +10,22 @@ html, body{
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 767px) {
+    .main-bg{
+        background-size: cover;
+        background-position: top;
+        margin-right: -29%;
+       
+        padding: auto;
+    }
+
+    html, body{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
 .white-bg {
     background: var(--white-color);
     color: var(--primary-color);
