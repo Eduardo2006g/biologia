@@ -14,7 +14,7 @@ html, body{
     .main-bg{
         background-size: cover;
         background-position: top;
-        margin-right: -29%;
+        margin-right: -31%;
         padding: auto;
     }
 
@@ -50,23 +50,28 @@ html, body{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
-        height: 100%;
+        width: 150%;
+        height: 150%;
+        margin-left: -2%;
 
     }
 
     .mapap{
-        width: 100%;
+        width: 150%;
         height: 100%;
-        margin-left: 20%;
         justify-content: center;
         display: flex;
         align-items: center;
     }
 
     .mapap h2{
-        width: 140%;
+       
         font-size: 2rem;
+        margin-left: -5%;
+    }
+
+    .mapap p{
+        margin-left: -5%;
     }
 
     .rizopodes{
@@ -77,13 +82,13 @@ html, body{
 
     .rizopodes h2{
         font-size: 2.5rem;
-        margin-left: 29%;
+        margin-left: 33%;
         width: 150%;
         
     }
 
     .rizopodes-col{
-        width: 129%;
+        width: 133%;
         margin-left: 30%;
     }
 
@@ -95,19 +100,28 @@ html, body{
 
     .flagelados2 h2{
         font-size: 2.5rem;
-        margin-left: -65%;
+        margin-left: -52%;
         width: 150%;
         
     }
 
     .flagelados2-col{
-        width: 129%;
+        width: 145%;
         margin-left: 30%;
     }
 
     .texto{
         width: 100%;
-        margin-left: 45%;
+        margin-right: -7%;
+    }
+
+    .flagelados2 .texto{
+        margin-left: 57%;
+
+    }
+
+    .rizopodes .texto{
+        margin-left: 30%;
     }
     
 }
