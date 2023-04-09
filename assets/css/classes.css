@@ -7,7 +7,15 @@ html, body{
     background-size: cover;
     background-position: center center;
     color: var(--white-color);
+    
     overflow-x: hidden;
+}
+
+article{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -45,6 +53,8 @@ html, body{
         font-size: 3rem;
         text-transform: uppercase;
     }
+
+
 
     .mapas{
         display: flex;
