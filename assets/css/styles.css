@@ -59,6 +59,7 @@
     max-width: 36rem;
     max-width: 36rem;
     overflow: hidden;
+    padding: 0 20px;
 }
 
 .gallery-img img {
@@ -67,6 +68,11 @@
 
 .gallery-img img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
+
+.gallery-img h3{
+    padding: 0;
+    margin-top: 5%;
 }
 
 .contact-form {
