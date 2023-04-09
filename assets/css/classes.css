@@ -5,6 +5,7 @@ html, body{
 .main-bg{
     background-image: url('../img/mainbg.svg');
     background-size: cover;
+    width: 132.5%;
     background-position: center center;
     color: var(--white-color);
     
