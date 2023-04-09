@@ -5,7 +5,6 @@ html, body{
 .main-bg{
     background-image: url('../img/mainbg.svg');
     background-size: cover;
-    width: 132.5%;
     background-position: center center;
     color: var(--white-color);
     
@@ -23,6 +22,7 @@ article{
     .main-bg{
         background-size: cover;
         background-position: top;
+        width: 132.5%;
         margin-right: -31%;
         padding: auto;
     }
