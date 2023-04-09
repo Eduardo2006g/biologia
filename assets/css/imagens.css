@@ -1,5 +1,3 @@
-/*aa*/
-
 @media (max-width:1100px) {
     .mapas{
         width: 100%;
@@ -13,7 +11,35 @@
     .flagelados2 h1{
         font-size: 2rem;
     }
+
+    .aarow{
+      width: 100%;
+      padding: 0;
+      margin-top: 5%;
+      flex-direction: column;
+      text-align: center;
+    }  
     
+    .curiosidades{
+      width: 130%;
+      text-align: center;
+    }
+    
+    .main-content{
+      text-align: center;
+    }
+
+    .nomes{
+      text-align: center;
+      width: 130%;
+      padding: 0;
+    }
+
+    .flagelados2 h2{
+      width: 130%;
+      text-align: center;
+    }
+
 }
 
 .flagelados2{
@@ -36,17 +62,32 @@
     font-size: 70%;
 }
 
+
 .flagelados2 p{
     font-size: 50%;
 }
   
-
+.nomes{
+  text-align: center;
+}
 .flagelados2 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
+  .aarow{
+    width: 200%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    
+  }  
+  
+  .nome{
+    display: inline-block;
+    vertical-align: top;
+  }
 
   
 .flagelados2-col{
@@ -72,7 +113,9 @@
     justify-content: center;
 }
 
-
+.mapas{
+  margin-top: -7%;
+}
 .rizopodes{
     width: 90%;
     margin: auto;
@@ -117,7 +160,6 @@
     transition: 0.5s;
   }
 
-  
   .rizopodes-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
   }
@@ -126,4 +168,19 @@
   min-height: 100vh;
   width: 100%;
   height: 100%;
+}
+
+.curiosidades{
+  text-align: center;
+}
+
+.curiosidades h3{
+  font-size: 3rem;
+}
+
+
+.curiosidades-col p{
+  margin-top: -2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
