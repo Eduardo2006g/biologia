@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/intro.css">
+    <link rel="stylesheet" href="assets/css/imagens.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-Label="Close menu" role="button" aria-pressed="true">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <img src="imagens/logo2.png" alt="logo" width="5%" class="logo">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#">Projeto Scraper</a>
+                
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Repositório</a></li>
+                    <li><a href="#curious">Introdução e objetivos</a></li>
+                    <li><a href="#top3">Metódos</a></li>
+                    <li><a href="#work">Bibliografia</a></li>
+                    
+                    
+           
+                    
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing">
+
+    </div>
+
+    <section class="intro main-bg section">
+
+        <div class="main-content intro-content" id="intro">
+
+            <div class="intro-text-content">
+                <br><br><br><br>
+                <h2>Documentação do Projeto Scraper</h2>
+
+                <p>Este site foi criado com o intuito de documentar os materias e fontes utilizados neste Projeto</p>
+            </div>
+
+            <div class="gallery-img">
+                <div class="intro-img">
+                    <a href="https://github.com/fboldt/scraper" class="padlet">
+                        <img src="imagens/Git.png" alt="">
+                    </a>
+                    <p class="texto1">Clique para acessar <br> nosso Repositório no Github!!!</p>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+    <section class="curiosidades" id="curious">
+        <div class="row">
+            
+            <br>
+            <div class="curiosidades-col">
+                <h2>Introdução</h2>
+                <p>O projeto Dog Scraper inicialmente chamado de Projeto Scraper tinha como estudo principal a coleta de informações e fotos utilizando técnicas como Web Scraping e posteriormente a validação dessas informações por meio de uma inteligência artificial treinada do zero a partir dos dados coletados na web. O projeto utilizou-se de fotos de variadas raças de cães devido a grande quantidade de informações disponíveis online, como APIs contendo desde fotos e características das raças e sub-raças apresentadas. No entanto, essas informações, por estarem dispersas por diferentes sites e páginas na web, a busca e validação manual desses dados seria no mínimo lenta, o que dificulta o processo de validação. O Web Scraping então surge como uma solução inicial para o problema, permitindo a busca de informações específicas relacionadas a cães pela web. Ao decorrer do projeto a Web Scraping aos poucos tornou-se pouco eficaz e o uso da Web Crawler passou a atender melhor os objetivos do projeto.</p>
+            </div>
+
+            <div class="curiosidades-col">
+                <h2>Objetivos</h2>
+                <p>O Dog Scraper tem como objetivo: 
+
+                    Desenvolver um sistema robusto que se beneficia de técnicas como web crawler para permitir a extração de informações diversificadas sobre cães a partir de APIs online confiáveis.
+                    Validar as informações coletadas, eliminando imagens ruins e outras inconsistências.
+                    Utilizar algoritmos de aprendizado de máquina para classificar, categorizar e validar as informações de acordo com critérios estabelecidos.
+                    Criar um modelo preditivo capaz de relacionar as informações coletadas com outras fotos de cães apresentadas, possibilitando a identificação de diferentes raças
+                    
+                    
+                    Porém o projeto em seu todo possui um objetivo mais ambicioso, que poderia vir a gerar um sistema capaz de coletar e validar informações e imagens sobre diferentes temas que poderiam ser tanto sobre outras espécies de animais quanto informações sobre notícias no geral
+                    </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="top3" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Materiais e Metódos</h2>
+            <p class="grid-description"> Com a utilização inicial de uma técnica chamada Web Scraper, a busca por imagens
+                e dados relevantes para o projeto tornou-se muito eficaz, porém devido a alguns
+                contrapontos o Web Crawler passou a ser a melhor opção na coleta de imagens. As
+                imagens usadas no treino dos classificadores visuais foram coletadas de diversas
+                fontes diferentes, a maioria delas APIs e sites contendo fotos de cães de diferentes
+                raças e sub-raças. Entre os sites podemos citar a página “List of Dog Breeds” da
+                Wikipédia https://en.wikipedia.org/wiki/List_of_dog_breeds) que por possuir um
+                formato padrão de página, auxiliou o reconhecimento de outras páginas válidas e a
+                transferência do algoritmo para extração de outros sites da Wikipédia, e a Dog API
+                que fornece uma grande variedade de imagens de diversas raças.</p>
+
+            <div class="grid">
+                <article>
+                    <h3>
+                        Linguagens utilizadas: 
+                    </h3>
+                    <p>
+                        JavaScript– Por conta de sua variedade de bibliotecas e sua eficácia na execução
+                        do código em comparação a outras linguagens, optou-se por sua utilização no
+                        desenvolvimento do Web
+                        Python– Algumas das redes neurais foram programadas em python e era usado no
+                        armazenamento de imagens no arquivo de saída do Scraper, além disso a
+                        linguagem foi muito utilizada pois permitia que arquivos fossem baixados e
+                        manipulados de forma simples no computador
+                    </p>
+                </article>
+                <article>
+                    <h3>
+                        Definição de Rótulos:   
+                    </h3>
+                    <p>
+                        Ao utilizarmos os textos descritivos que acompanhavam as imagens coletadas,
+ muitas vezes usados para expressar alguma característica da imagem apresentada,
+ foi possível rotular imagens com descrições semelhantes e assim facilitar sua
+ classificação
+
+                    </p>
+                </article>
+                <article>
+                    <h3>
+                         Treinamento de Classificadores:
+                    </h3>
+                    <p>
+                        <br>
+                        Diferentes redes neurais feitas a partir de bibliotecas de código aberto como
+ TensorFlow e Keras foram utilizadas nesse processo de classificação, permitindo
+ assim, que houvesse uma confiabilidade muito maior quanto aos resultados
+ considerando que diferentes redes neurais apresentaram resultados semelhantes.  
+
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>    
+
+    <section class="flagelados2">
+        <h2 class="aab">Alguns dos materiais utilizados</h2>
+        
+        <div class="aarow">
+
+            <div class="gallery-img">
+                <img src="imagens/API.png" alt="foto1"  class="gallery-img">
+                <div class="nome"> 
+                    <h3>API usada no treinamento das redes neurais</h3>
+                </div>
+            </div>
+    
+            <div class="gallery-img">
+                <img src="imagens/json.png" alt="foto1" class="gallery-img">
+                <div class="nome"> 
+                    <h3>Código do Scraper utilizado no projeto</h3>
+                </div>
+            </div>
+
+            <div class="gallery-img">
+                <img src="imagens/image3.png" alt="foto1" class="gallery-img">
+                <div class="nome"> 
+                    <h3>Flagelado-3</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="flagelados2">
+        <h2>PARASITOLOGIA</h2>
+        <p class="texto">Com relação aos flagelados, muitos deles são conhecidos por serem parasitas de animais e plantas, causando diversas doenças.</p>
+        <div class="row">
+    
+            <div class="flagelados2-col">
+                <h3>Doença de Chagas</h3>
+                <p>- espécie: Trypanosoma Cruzi <br>
+                    - transmissão: fezes do inseto Triatoma através de lesões na pele
+                </p>
+            </div>
+    
+            <div class="flagelados2-col">
+                <h3>Doença do Sono</h3>
+                <p>
+                    - especie: Trypanosoma Gambiensis <br>
+                    - transmissão: picada da mosca tsé-tsé (glossina) 
+                </p>
+            </div>
+    
+            <div class="flagelados2-col">
+                <h3>Tricomoníase</h3>
+                <p>
+                    - espécie: Trichomonas Vaginalis <br>
+                    - transmissão: relação sexual ou toalhas e objetivos úmidos contaminados
+                </p>
+            </div>
+    
+            <div class="flagelados2-col">
+                <h3>Giardíase</h3>
+                <p>
+                    - espécie: Giardia Lamblia <br>
+                    - transmissão: ingestão de cistos eliminados com as fezes humanas
+                </p>
+            </div>
+    
+        </div>
+      </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <br>
+            <div class="mapap">
+                <h2 class="grid-main-heading">Mapa Mental - 1</h2>
+            <p class="grid-description">Agora vamos seguir o mapa mental para organizar as ideias de forma clara e objetiva.</p>
+
+            <div class="grid">
+                    <img src="imagens/Maps1.png" alt="" class="mapas">
+            </div>
+            </div>
+        
+    </section>
+
+    <section id="work" class="intro main-bg section">
+        <h2 class="bib">Bibliografia</h2>
+        <div class="links">
+            <a href="https://youtu.be/vOjZqovIAS4">
+                <p>→ Vídeo-1</p>
+            </a>
+
+            <a href="https://pin.it/7LO7E1r">
+                <p>→ Imagem-1</p>
+            </a>
+
+            <a href="https://www.seekpng.com/ipng/u2w7u2r5y3t4t4t4_padlet-app-icon/">
+                <p>→ Imagem-5</p>
+            </a>
+
+            <a href="https://youtu.be/ibt82fB9jF8">
+                <p>→ Vídeo-2</p>
+            </a>
+
+            <a href="https://www.medicalimages.com/stock-photo-protozoa-trichonympha-sp-lm-image23632333.html">
+                <p>→ Imagem-2</p>
+            </a>
+
+            <a href="https://www.sobiologia.com.br/conteudos/Reinos/Protista.php">
+                <p>→ Imagem-6</p>
+            </a>
+
+            <a href="https://youtu.be/h1nWH3DwyVQ">
+                <p>→ Vídeo-3</p>
+            </a>
+
+            <a href="https://www.biomedicinapadrao.com.br/2016/05/trypanosoma-brucei-gambiense.html">
+                <p>→ Imagem-3</p>
+            </a>
+
+            <a href="https://www.uol.com.br/vivabem/noticias/redacao/2020/09/15/menino-de-13-anos-morre-apos-contrair-ameba-comedora-de-cerebro-nos-eua.htm">
+                <p>→ Imagem-7</p>
+            </a>
+
+            <a href="https://youtu.be/h1nWH3DwyVQ">
+                <p>→ Imagem-0</p>
+            </a>
+
+            <a href="https://www.istockphoto.com/br/vetor/deixa-o-sinal-do-%C3%ADcone-do-s%C3%ADmbolo-separado-gm1264039988-370105021">
+                <p>→ Imagem-4</p>
+            </a>
+
+            <a href="https://www.istockphoto.com/br/vetor/proteus-de-ameba-com-n%C3%BAcleo-vac%C3%BAolo-contr%C3%A1ctil-outras-organelas-e-t%C3%ADtulos-gm989198188-268172289">
+                <p>→ Imagem-8</p>
+            </a>
+
+            
+        
+        </div>
+
+    </section>
+
+    <section class="flagelados2">
+        <h2 class="aab">Imagens Rizópodes</h2>
+        
+        <div class="aarow">
+
+            <div class="gallery-img">
+                <img src="imagens/image4.jpg" alt="foto1"  class="gallery-img">
+                <div class="nome"> 
+                    <h3>Ameba-1</h3>
+                </div>
+            </div>
+    
+            <div class="gallery-img">
+                <img src="imagens/image5.jpg" alt="foto1" class="gallery-img">
+                <div class="nome"> 
+                    <h3>Ameba-2</h3>
+                </div>
+            </div>
+
+            <div class="gallery-img">
+                <img src="imagens/image6.jpg" alt="foto1" class="gallery-img">
+                <div class="nome"> 
+                    <h3>Estrutura</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="rizopodes">
+        <h2>PARASITOLOGIA</h2>
+        <p class="texto">Alguns rizópodes são conhecidos por serem parasitas de animais e humanos, causando doenças como a disenteria amébica.</p>
+        <div class="row">
+    
+            <div class="rizopodes-col">
+                <h3>Rizópodes</h3>
+                <p>* Existem gêneros parasitas, que vivem no intestino de insetos e de tetrápodes, incluindo o Homem, onde causam várias doenças (disenteria amebiana, por exemplo). <br>
+                    * Amebíase doença causada pela Entamoeba Histolytica, a transmissão da amebíase ocorre pela ingestão dos cistos desta ameba encontrados em alimentos ou água contaminada, geralmente a amebíase é assintomática, podendo ocorrer diarréias e desinterias leves a graves. As infecções extra intestinais incluem abscessos no fígado.
+                </p>
+            </div>
+      </section>
+
+      <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <br>
+            <div class="mapap">
+                <h2 class="grid-main-heading">Mapa Mental - 2</h2>
+            <p class="grid-description">Agora vamos continuar com o mapa mental.</p>
+
+            <div class="grid">
+                    <img src="imagens/Maps2.png" alt="" class="mapas">
+            </div>
+            </div>
+        
+    </section>
+
+
+    <a class= 'back-to-top' href="#">➤</a>
+
+
+    <section class="white-bg section">
+        <div class="nomes">
+            <br>
+            <h2>PARTICIPANTES DO PROJETO:</h2>
+            <p>
+                Francisco Boldt - Orientador. <br> 
+                <br>
+                Marcos Faria e Ludmilla - Pesquisadores <br>
+                <br>
+                Eduardo de Oliveira - IC júnior
+            </p>
+        </div>
+    </section>
+
+    <section class="intro main-bg section">
+
+        <div class="main-content intro-content" id="intro">
+            <div class="gallery-img2">
+                <div class="intro-img">
+                    <a href="https://github.com/fboldt/isdog" class="padlet">
+                        <img src="imagens/Git.png" alt="">
+                    </a>
+                    <p class="texto2">Acesse o repositório do isdog<br>O novo projeto em que estamos trabalhando</p>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
