@@ -46,8 +46,22 @@ body{
     margin: 15px 0 10px;
 }
 
-.container .jorge{
+.container .login{
+    color: #333;
+}
+
+.container .login:hover{
     color: #fff;
+    transition: 1s;
+}
+
+.registre-se {
+    color: #333;
+}
+
+.container .registre-se:hover{
+    color: #fff;
+    transition: 1s;
 }
 
 .container button{
@@ -64,6 +78,8 @@ body{
     cursor: pointer;
 }
 
+
+
 .container #btn2{
     background-color: #fff;
     color: #333;
@@ -78,15 +94,15 @@ body{
     cursor: pointer;
 }
 
+
+
 .container #btn2:hover{
     background-color: #2135a7;
     color: #fff;
     transition: 1s;
 }
 
-.registre-se {
-    color: #fff;
-}
+
 
 
 .container button.hidden:hover{
